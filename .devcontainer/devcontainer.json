@@ -24,7 +24,10 @@
 		"vscode": {
 		  // Add the IDs of extensions you want installed when the container is created.
 		  "extensions": ["ms-python.vscode-pylance", "eamodio.gitlens", "ms-toolsai.jupyter", "ms-python.python"]
-		}
+		},
+		"codespaces": {
+            		"openFiles": ["examples/notebooks/ols.ipynb"]
+     		}
 	}
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.

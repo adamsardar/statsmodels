@@ -12,10 +12,11 @@
 	// "forwardPorts": [],
 
 	// Faster binary installs of some of the core, awkward deps
-	"updateContentCommand": "sudo apt update && sudo apt install -y python3-pip python3-sklearn python3-pandas python3-matplotlib",
+	"updateContentCommand": "sudo apt update && sudo apt install -y python3-pip python3-sklearn python3-pandas python3-matplotlib python3-statsmodels",
 		
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install --user -r requirements-dev.txt && pip3 install --user .",
+	// "postCreateCommand": "pip3 install --user -r requirements-dev.txt && pip3 install --user .",
+	// Too slow for a tutorial
 
 	// Configure tool-specific properties.
 	"customizations": {
